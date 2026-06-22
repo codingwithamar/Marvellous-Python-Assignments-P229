@@ -11,3 +11,6 @@ print(type(age))
 num = int(input("Enter a number: "))
 print(num + num)
 print(type(num))
+
+
+print("\ninput() function always returns a string (str) because Python reads everything entered from the keyboard as text.")

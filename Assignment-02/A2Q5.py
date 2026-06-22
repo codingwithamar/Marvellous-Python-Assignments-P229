@@ -12,3 +12,4 @@ b = 10
 print(id(a))
 print(id(b))
 print(id(a) == id(b))
+print("\nHere a and b memory location is shared which is same.")

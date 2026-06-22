@@ -23,4 +23,15 @@ print("a = ", a,"id = ",id(a))
 print("b = ", b,"id = ",id(b))
 print("a and b refer to different object:", id(a) == id(b)) 
 
+print('''
+------------------------Exaplanation------------------------------
+------------------------------------------------------------------
+    Features          a = 10, b = 10           a = [10], b = [10]
+------------------------------------------------------------------
+Object Creation    Same Object Reused        New Object Each time
 
+Memmory Location        Same                     Different
+
+id(a)==id(b)             Yes                         No
+------------------------------------------------------------------
+      ''')
