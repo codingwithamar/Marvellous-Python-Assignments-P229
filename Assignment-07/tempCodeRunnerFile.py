@@ -1,0 +1,1 @@
+print(value)    #but answer is 15
