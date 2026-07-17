@@ -6,8 +6,6 @@
 # Description : Min Value return
 # =============================================================================
 
-
-
 from functools import reduce
 
 def ChotaDon(iNo1,iNo2):
