@@ -14,7 +14,7 @@ def main():
     NumList = list(map(int,input().split()))
     
     Products = reduce(lambda iNum1, iNum2 : iNum1 * iNum2, NumList)
-    print("Your Small Number is : ", Products)
+    print("Product of all Elements : ", Products)
 
 if __name__ == "__main__":
     main()
