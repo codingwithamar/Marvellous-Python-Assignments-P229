@@ -30,3 +30,7 @@ Thumbs.db
 # Build
 build/
 dist/
+
+# Python cache
+__pycache__/
+*.pyc
