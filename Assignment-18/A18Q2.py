@@ -9,16 +9,17 @@
 
 def main():
     Values = []
-    Data = input("Enter the Values : ")
-
     while True:
-        if Data == " ":
+        Data = input("Enter the Values : ")
+
+        if Data == "":
             break
 
         Values.append(int(Data))
-
-    print(Values)
-
+    print("Here is your List : ",Values)
+    Largest = max(Values)
+    print("Largest Value of List is : ",Largest)
 
 if __name__ == "__main__":
     main()
+    
