@@ -99,7 +99,7 @@ def main():
     T3.start()
     T3.join()
 
-    T4.start()
+    T4.start() 
     T4.join()
 
     Rsmall = QT1.get()
