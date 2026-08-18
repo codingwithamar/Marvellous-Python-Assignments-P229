@@ -31,7 +31,5 @@ def main():
         schedule.run_pending()
         time.sleep(1)
 
-    print("Automate Script Ended")
-
 if __name__ == "__main__":
     main()
