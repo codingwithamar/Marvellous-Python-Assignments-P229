@@ -33,7 +33,7 @@ def WriteInsideFile():
 def main():
     print("Automate script started")
 
-    schedule.every(30).seconds.do(WriteInsideFile)
+    schedule.every(5).minutes.do(WriteInsideFile)
 
     while True:
         schedule.run_pending()
